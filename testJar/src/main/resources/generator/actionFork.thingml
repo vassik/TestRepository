@@ -1,0 +1,4 @@
+if (nbSessions < maxSessions) do
+    nbSessions = nbSessions + 1
+    fork /*$NAME$*/
+end
