@@ -1,3 +1,5 @@
+#!groovy
+
 node {
    def mvnHome
    stage('Downloading changes') { // for display purposes
