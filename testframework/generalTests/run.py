@@ -183,14 +183,14 @@ def prepare_report(working_folder, jobs, report_folder, category_name):
 			job_body = file.read()
 
 		#modify urls, job name should precede all urls
-		print "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+		print "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 " + job
 		pattern = '(?<=href=\").+(?=\")'
 		matches = re.findall(pattern, job_body)
 		for old_path in matches:
 			new_path = os.path.join(job, old_path)
 			job_body = job_body.replace(old_path, new_path)
-			print old_path
-			print new_path
+			print "old_path " + old_path + " for job:" + job
+			print "new_path " + new_path + " for job:" + job
 
 		body_accumulated_result = body_accumulated_result + job_body
 
