@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ThingML
 
 The ThingML approach is composed of *i*) a **modeling language**, *ii*) a set of **tools** and *iii*) a **methodology**. The modeling language combines well-proven software modeling constructs for the design and implementation of distributed reactive systems:
@@ -275,3 +276,6 @@ ThingMLCompiler.saveAsXMI(myModel, "target.xmi");
 **Visit [thingml.org](http://www.thingml.org) to find out more about ThingML !**
 
 ![ThingML is released under OSI-compliant Apache 2.0 license](https://opensource.org/files/osi_keyhole_100X100_90ppi.png "ThingML is released under OSI-compliant Apache 2.0 license")
+=======
+# Test repo
+>>>>>>> 0bef8fa5675fa47d5e11f876fa548018a01cd276
