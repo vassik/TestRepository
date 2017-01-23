@@ -15,7 +15,7 @@ node {
    }
    stage('Testing') {
 		echo "Testing"
-		export
+		sh "export"
        sh "./testframework/test.py"
    }
    stage('Publishing HTML Report') {
