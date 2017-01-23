@@ -15,6 +15,7 @@ node {
    }
    stage('Testing') {
 		echo "Testing"
+		sh "export MASTER_SSH_PORT=22"
 		sh "export"
        sh "./testframework/test.py"
    }
